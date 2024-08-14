@@ -1,8 +1,10 @@
 {
-  "name": "contacts-mannager",
+  "name": "contacts-manager",
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "author": "Hanzla Haroon",
+  "description": "A contact manager app",
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
