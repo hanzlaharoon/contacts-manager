@@ -1,4 +1,5 @@
 import {
+  Link,
   Links,
   Meta,
   Outlet,
@@ -17,6 +18,18 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <div className="navbar bg-neutral text-neutral-content">
+          <div className="flex-1">
+            <a className="btn btn-ghost text-xl" href="/">
+              Contacts Manager
+            </a>
+          </div>
+          <div className="navbar-end">
+            <Link to="/contacts/new">
+              <button>Create Contact</button>
+            </Link>
+          </div>
+        </div>
         {children}
         <ScrollRestoration />
         <Scripts />
