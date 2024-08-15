@@ -81,6 +81,7 @@ export default function EditContact() {
             defaultValue={contact.name}
             required
             className="input input-bordered w-full"
+            placeholder="John Doe"
           />
         </div>
 
@@ -94,6 +95,7 @@ export default function EditContact() {
             defaultValue={contact.phone}
             required
             className="input input-bordered w-full"
+            placeholder="+923336001234"
           />
         </div>
 
